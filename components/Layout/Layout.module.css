@@ -1,0 +1,15 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.layout__main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

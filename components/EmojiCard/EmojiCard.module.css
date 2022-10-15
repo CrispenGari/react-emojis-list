@@ -1,0 +1,30 @@
+.emoji__card {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 1s;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+}
+
+.emoji__card:hover {
+  background-color: var(--main-color);
+}
+.emoji__card > p {
+  transition: all 1ms;
+  background-color: var(--main-color);
+  color: white;
+  padding: 5px 10px;
+  position: absolute;
+  border-radius: 10px;
+  font-size: 1rem;
+  top: -15px;
+  border: 1px solid white;
+}
