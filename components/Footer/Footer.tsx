@@ -13,7 +13,7 @@ const Footer: React.FC<Props> = ({}) => {
         reserved.
       </p>
       <p>
-        <Link href={""}>
+        <Link href={"https://www.npmjs.com/package/@crispengari/react-emojify"}>
           <DiNpm className={styles.footer__icon} />
         </Link>
         <Link href={"https://github.com/CrispenGari/react-emojify"}>
